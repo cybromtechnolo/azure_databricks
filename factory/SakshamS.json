@@ -1,0 +1,15 @@
+{
+	"name": "SakshamS",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ba13dfef-4ab7-46ba-8fd8-89f86cb78743",
+		"tenantId": "f35a1513-14f8-4a10-9bb7-83bc2becb66e"
+	}
+}
