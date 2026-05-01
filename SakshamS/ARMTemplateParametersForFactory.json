@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SakshamS"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "dbsaksham.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "saksham"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Saksham"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "dbsaksham.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "saksham"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "Saksham"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "dbsaksham.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "saksham"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "Saksham"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "dbsaksham.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "saksham"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "Saksham"
+		}
+	}
+}
