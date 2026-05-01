@@ -1,0 +1,20 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage5",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Axis",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "IndianBanks1.xlsx",
+				"container": "containersss"
+			}
+		},
+		"schema": []
+	}
+}

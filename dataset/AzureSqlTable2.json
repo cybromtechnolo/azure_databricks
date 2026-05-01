@@ -1,0 +1,45 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Sl No",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "Branch Address",
+				"type": "varchar"
+			},
+			{
+				"name": "Contact Person",
+				"type": "varchar"
+			},
+			{
+				"name": "Contact Number",
+				"type": "varchar"
+			},
+			{
+				"name": "Fax",
+				"type": "varchar"
+			},
+			{
+				"name": "Email",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Barclays"
+		}
+	}
+}

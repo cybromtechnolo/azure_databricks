@@ -1,0 +1,29 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Column1",
+				"type": "varchar"
+			},
+			{
+				"name": "Column2",
+				"type": "varchar"
+			},
+			{
+				"name": "Column3",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CBI"
+		}
+	}
+}

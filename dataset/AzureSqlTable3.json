@@ -1,0 +1,41 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CITY",
+				"type": "varchar"
+			},
+			{
+				"name": "BRANCH ADDRESS",
+				"type": "varchar"
+			},
+			{
+				"name": "CONTACT PERSON",
+				"type": "varchar"
+			},
+			{
+				"name": "CONTACT NUMBER",
+				"type": "varchar"
+			},
+			{
+				"name": "FAX NUMBER",
+				"type": "varchar"
+			},
+			{
+				"name": "EMAIL-ID",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "BoB"
+		}
+	}
+}
