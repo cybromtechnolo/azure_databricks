@@ -8,6 +8,7 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "CBI",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "IndianBanks1.xlsx",
